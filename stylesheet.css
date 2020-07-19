@@ -1,0 +1,183 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  font-family:"Monotype Corsiva",fantasy,"HG正楷書体-PRO",cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.header{
+  width:100%;
+  position: fixed;
+  z-index: 10;
+  height: 70px;
+  background-color:#000;
+  color: #fff;
+  opacity: 0.8;
+  font-family: 'Noto Sans JP', sans-serif;
+  padding-bottom: 5px;
+}
+.header span{
+  color:#00DD00;
+}
+.header-logo{
+font-size:30px;
+padding:20px;
+}
+
+.top-wrapper{
+  padding-top: 0px;
+  background-image: url("kawagoekopi-.jpg");
+  background-size: cover;
+  vertical-align: top;
+  height:600px;
+  width: 100%;
+}
+h1{
+  /*font-size: 25px;*/
+  font-size:30px;
+  color:#fff;
+  position:relative;
+  margin-top: 150px;
+  text-align: center;
+  top: 300px;
+  right: 80px
+  /*top:-30%;*/
+}
+h1 span{
+  color:#00DD00;
+  font-size: 30px;
+}
+/*.square{
+ width: 300px;
+ height: 150px;
+ background: #FFF;
+ opacity:0.5;
+ position: relative;
+ margin: auto;
+ top: 20%;
+}*/
+.second-wrapper{
+  height: 500px;
+  text-align:center;
+  background-color: #f7f7f7;
+}
+h2{
+  font-size:40px;
+  padding-top:60px;
+  letter-spacing: 4px;
+  text-decoration:underline;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top:80px;
+}
+.heading p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+.explanation p{
+  font-size:32px;
+}
+.lesson-wrapper{
+  height:1750px;
+  text-align:center;
+}
+.lesson{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.boder{
+  border: solid 3px #000;
+  border-radius: 10px;
+  width:300px;
+  height:350px;
+  margin: 15px;
+}
+.lesson-icon{
+  position: relative;
+}
+h3{
+  text-decoration:underline;
+  border-width: 1px;
+  font-size:35px;
+  margin-bottom: 1px;
+}
+.lesson-icon p{
+  position: absolute;
+  color:block;
+  width:100%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.text-contents{
+  font-size:13px;
+  margin-top: 15px;
+  color: block;
+  width: 80%;
+  padding: 40px 0px 50px 0px;
+  display: inline-block;
+}
+.btn-message{
+  font-size: 25px;
+  display:inline-block;
+  color:white;
+  background-color:#000;
+  opacity:0.8;
+  padding:10px 35px;
+  margin:0 auto;
+  text-align:center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.btn-message:hover{
+  margin-top: 20px;
+  border: 3px solid #000;
+  background-color: white;
+  font-weight: bold;
+  color:#000;
+}
+.last h2{
+  text-align: center;
+}
+.last p{
+  padding: 5px;
+}
+.footer{
+  height: 50px;
+  width:100%;
+  background-color:#000;
+  color:#fff;
+  font-size: 30px;
+  padding:30px;
+}
+.footer span{
+  color: #00DD00;
+}
+
+/*---------------------------------------------*/
+
+.center{
+  height: 1800px;
+  text-align: center;
+  padding-top: 50px;
+}
+.center h3{
+  font-size:60px;
+}
+.center p{
+  margin-top:0px;
+  font-size: 20px;
+}
+.photo{
+  padding-top: 30px;
+}
+.sentence{
+  text-align: left;
+  margin: 10px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
