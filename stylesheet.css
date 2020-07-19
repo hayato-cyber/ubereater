@@ -28,7 +28,7 @@ padding:20px;
 .top-wrapper{
   padding-top: 0px;
   background-image: url("kawagoekopi-.jpg");
-  background-size: cover;
+  background-size: contain;
   vertical-align: top;
   height:600px;
   min-width: 500px;
